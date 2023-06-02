@@ -15,8 +15,8 @@ ALGORITHM :
 ## PROGRAM :
 ## CLIENT :
 
-# Developed by : AMRUTHA VARSHNI
-# Register Number : 212222040007
+#Developed by : AMRUTHA VARSHNI
+#Register Number : 212222040007
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -35,8 +35,8 @@ while True:
 
 ## SERVER :
 
-# Developed by : AMRUTHA VARSHNI
-# Register Number : 212222040007
+#Developed by : AMRUTHA VARSHNI
+#Register Number : 212222040007
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
