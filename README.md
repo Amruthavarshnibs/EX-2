@@ -14,6 +14,7 @@ ALGORITHM :
 6.Stop the program
 ## PROGRAM :
 ## CLIENT :
+```
 #Developed by : AMRUTHA VARSHNI
 #Register Number : 212222040007
 import socket
@@ -31,7 +32,9 @@ while True:
  else:
  c.close()
  break
+ ```
 ## SERVER :
+```
 #Developed by : AMRUTHA VARSHNI
 #Register Number : 212222040007
 import socket
@@ -40,7 +43,7 @@ s.connect(('localhost',8000))
 while True:
  print(s.recv(1024).decode())
  s.send("Acknowledgement Received".encode())
-
+```
 ## OUTPUT :
 ## CLIENT:
 ![242247658-5e3db979-dc45-41d4-b6f6-1bc44005acaf](https://github.com/Amruthavarshnibs/EX-2/assets/119103704/f1834824-b896-4f5b-8a43-6560a89d6674)
